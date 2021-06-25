@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2285685E25AAB28900E9F6FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2285685D25AAB28900E9F6FA /* AppDelegate.swift */; };
+		2285686025AAB28900E9F6FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2285685F25AAB28900E9F6FA /* SceneDelegate.swift */; };
+		2285686225AAB28900E9F6FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2285686125AAB28900E9F6FA /* ViewController.swift */; };
+		2285686525AAB28900E9F6FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2285686325AAB28900E9F6FA /* Main.storyboard */; };
+		2285686725AAB28A00E9F6FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2285686625AAB28A00E9F6FA /* Assets.xcassets */; };
+		2285686A25AAB28A00E9F6FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2285686825AAB28A00E9F6FA /* LaunchScreen.storyboard */; };
+		2285687525AAB28A00E9F6FA /* cardFlipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2285687425AAB28A00E9F6FA /* cardFlipTests.swift */; };
+		2285688025AAB28A00E9F6FA /* cardFlipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2285687F25AAB28A00E9F6FA /* cardFlipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2285687125AAB28A00E9F6FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2285685225AAB28900E9F6FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2285685925AAB28900E9F6FA;
+			remoteInfo = cardFlip;
+		};
+		2285687C25AAB28A00E9F6FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2285685225AAB28900E9F6FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2285685925AAB28900E9F6FA;
+			remoteInfo = cardFlip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2285685A25AAB28900E9F6FA /* cardFlip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardFlip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2285685D25AAB28900E9F6FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2285685F25AAB28900E9F6FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2285686125AAB28900E9F6FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2285686425AAB28900E9F6FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2285686625AAB28A00E9F6FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2285686925AAB28A00E9F6FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2285686B25AAB28A00E9F6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2285687025AAB28A00E9F6FA /* cardFlipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardFlipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2285687425AAB28A00E9F6FA /* cardFlipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardFlipTests.swift; sourceTree = "<group>"; };
+		2285687625AAB28A00E9F6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2285687B25AAB28A00E9F6FA /* cardFlipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardFlipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2285687F25AAB28A00E9F6FA /* cardFlipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardFlipUITests.swift; sourceTree = "<group>"; };
+		2285688125AAB28A00E9F6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2285685725AAB28900E9F6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2285686D25AAB28A00E9F6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2285687825AAB28A00E9F6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2285685125AAB28900E9F6FA = {
+			isa = PBXGroup;
+			children = (
+				2285685C25AAB28900E9F6FA /* cardFlip */,
+				2285687325AAB28A00E9F6FA /* cardFlipTests */,
+				2285687E25AAB28A00E9F6FA /* cardFlipUITests */,
+				2285685B25AAB28900E9F6FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2285685B25AAB28900E9F6FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2285685A25AAB28900E9F6FA /* cardFlip.app */,
+				2285687025AAB28A00E9F6FA /* cardFlipTests.xctest */,
+				2285687B25AAB28A00E9F6FA /* cardFlipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2285685C25AAB28900E9F6FA /* cardFlip */ = {
+			isa = PBXGroup;
+			children = (
+				2285685D25AAB28900E9F6FA /* AppDelegate.swift */,
+				2285685F25AAB28900E9F6FA /* SceneDelegate.swift */,
+				2285686125AAB28900E9F6FA /* ViewController.swift */,
+				2285686325AAB28900E9F6FA /* Main.storyboard */,
+				2285686625AAB28A00E9F6FA /* Assets.xcassets */,
+				2285686825AAB28A00E9F6FA /* LaunchScreen.storyboard */,
+				2285686B25AAB28A00E9F6FA /* Info.plist */,
+			);
+			path = cardFlip;
+			sourceTree = "<group>";
+		};
+		2285687325AAB28A00E9F6FA /* cardFlipTests */ = {
+			isa = PBXGroup;
+			children = (
+				2285687425AAB28A00E9F6FA /* cardFlipTests.swift */,
+				2285687625AAB28A00E9F6FA /* Info.plist */,
+			);
+			path = cardFlipTests;
+			sourceTree = "<group>";
+		};
+		2285687E25AAB28A00E9F6FA /* cardFlipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2285687F25AAB28A00E9F6FA /* cardFlipUITests.swift */,
+				2285688125AAB28A00E9F6FA /* Info.plist */,
+			);
+			path = cardFlipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2285685925AAB28900E9F6FA /* cardFlip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2285688425AAB28A00E9F6FA /* Build configuration list for PBXNativeTarget "cardFlip" */;
+			buildPhases = (
+				2285685625AAB28900E9F6FA /* Sources */,
+				2285685725AAB28900E9F6FA /* Frameworks */,
+				2285685825AAB28900E9F6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cardFlip;
+			productName = cardFlip;
+			productReference = 2285685A25AAB28900E9F6FA /* cardFlip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2285686F25AAB28A00E9F6FA /* cardFlipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2285688725AAB28A00E9F6FA /* Build configuration list for PBXNativeTarget "cardFlipTests" */;
+			buildPhases = (
+				2285686C25AAB28A00E9F6FA /* Sources */,
+				2285686D25AAB28A00E9F6FA /* Frameworks */,
+				2285686E25AAB28A00E9F6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2285687225AAB28A00E9F6FA /* PBXTargetDependency */,
+			);
+			name = cardFlipTests;
+			productName = cardFlipTests;
+			productReference = 2285687025AAB28A00E9F6FA /* cardFlipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2285687A25AAB28A00E9F6FA /* cardFlipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2285688A25AAB28A00E9F6FA /* Build configuration list for PBXNativeTarget "cardFlipUITests" */;
+			buildPhases = (
+				2285687725AAB28A00E9F6FA /* Sources */,
+				2285687825AAB28A00E9F6FA /* Frameworks */,
+				2285687925AAB28A00E9F6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2285687D25AAB28A00E9F6FA /* PBXTargetDependency */,
+			);
+			name = cardFlipUITests;
+			productName = cardFlipUITests;
+			productReference = 2285687B25AAB28A00E9F6FA /* cardFlipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2285685225AAB28900E9F6FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					2285685925AAB28900E9F6FA = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					2285686F25AAB28A00E9F6FA = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 2285685925AAB28900E9F6FA;
+					};
+					2285687A25AAB28A00E9F6FA = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 2285685925AAB28900E9F6FA;
+					};
+				};
+			};
+			buildConfigurationList = 2285685525AAB28900E9F6FA /* Build configuration list for PBXProject "cardFlip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2285685125AAB28900E9F6FA;
+			productRefGroup = 2285685B25AAB28900E9F6FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2285685925AAB28900E9F6FA /* cardFlip */,
+				2285686F25AAB28A00E9F6FA /* cardFlipTests */,
+				2285687A25AAB28A00E9F6FA /* cardFlipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2285685825AAB28900E9F6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2285686A25AAB28A00E9F6FA /* LaunchScreen.storyboard in Resources */,
+				2285686725AAB28A00E9F6FA /* Assets.xcassets in Resources */,
+				2285686525AAB28900E9F6FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2285686E25AAB28A00E9F6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2285687925AAB28A00E9F6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2285685625AAB28900E9F6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2285686225AAB28900E9F6FA /* ViewController.swift in Sources */,
+				2285685E25AAB28900E9F6FA /* AppDelegate.swift in Sources */,
+				2285686025AAB28900E9F6FA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2285686C25AAB28A00E9F6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2285687525AAB28A00E9F6FA /* cardFlipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2285687725AAB28A00E9F6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2285688025AAB28A00E9F6FA /* cardFlipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2285687225AAB28A00E9F6FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2285685925AAB28900E9F6FA /* cardFlip */;
+			targetProxy = 2285687125AAB28A00E9F6FA /* PBXContainerItemProxy */;
+		};
+		2285687D25AAB28A00E9F6FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2285685925AAB28900E9F6FA /* cardFlip */;
+			targetProxy = 2285687C25AAB28A00E9F6FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2285686325AAB28900E9F6FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2285686425AAB28900E9F6FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2285686825AAB28A00E9F6FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2285686925AAB28A00E9F6FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2285688225AAB28A00E9F6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2285688325AAB28A00E9F6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2285688525AAB28A00E9F6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3669PMV4C;
+				INFOPLIST_FILE = cardFlip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stu.cardFlip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2285688625AAB28A00E9F6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3669PMV4C;
+				INFOPLIST_FILE = cardFlip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stu.cardFlip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2285688825AAB28A00E9F6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3669PMV4C;
+				INFOPLIST_FILE = cardFlipTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stu.cardFlipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cardFlip.app/cardFlip";
+			};
+			name = Debug;
+		};
+		2285688925AAB28A00E9F6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3669PMV4C;
+				INFOPLIST_FILE = cardFlipTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stu.cardFlipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cardFlip.app/cardFlip";
+			};
+			name = Release;
+		};
+		2285688B25AAB28A00E9F6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3669PMV4C;
+				INFOPLIST_FILE = cardFlipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stu.cardFlipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cardFlip;
+			};
+			name = Debug;
+		};
+		2285688C25AAB28A00E9F6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3669PMV4C;
+				INFOPLIST_FILE = cardFlipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stu.cardFlipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cardFlip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2285685525AAB28900E9F6FA /* Build configuration list for PBXProject "cardFlip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2285688225AAB28A00E9F6FA /* Debug */,
+				2285688325AAB28A00E9F6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2285688425AAB28A00E9F6FA /* Build configuration list for PBXNativeTarget "cardFlip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2285688525AAB28A00E9F6FA /* Debug */,
+				2285688625AAB28A00E9F6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2285688725AAB28A00E9F6FA /* Build configuration list for PBXNativeTarget "cardFlipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2285688825AAB28A00E9F6FA /* Debug */,
+				2285688925AAB28A00E9F6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2285688A25AAB28A00E9F6FA /* Build configuration list for PBXNativeTarget "cardFlipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2285688B25AAB28A00E9F6FA /* Debug */,
+				2285688C25AAB28A00E9F6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2285685225AAB28900E9F6FA /* Project object */;
+}
